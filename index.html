@@ -21,6 +21,10 @@
 
     <style type="text/css" media="screen">
 
+body {
+    font-weight: 300;
+}
+
 .inverse {
     background: #004266;
     color: #fff;
@@ -50,12 +54,16 @@ section {
     padding: 20px 0;
 }
 
-.intro {
-    margin-top: -40px;
+.intro .row {
+    margin-top: -100px;
 }
 
 section p:last-child {
     margin-bottom: 0;
+}
+
+h2 {
+    margin-bottom: 30px;
 }
 
 p, li {
@@ -63,7 +71,7 @@ p, li {
     line-height: 120%;
 }
 
-.avatar {
+.avatar, .lead {
     text-align: center;
 }
 
@@ -74,6 +82,10 @@ p, li {
 
 .span12 img {
     width: 100%;
+}
+
+.intro .span12 img {
+    width: auto;
 }
 
 .img-comment {
@@ -109,16 +121,26 @@ p, li {
       <section class="inverse intro">
           <div class="container">
             <div class="row">
-                <div class="span3 offset2">
+                <div class="span12">
+                    <p class="lead">Hi, I'm Kate Click!</p>
                     <p class="avatar"><img src="https://si0.twimg.com/profile_images/3134548196/76a8dc0dfdad1e3b76273266edb0caed.jpeg" alt="Kate Click"></p>
+                    <p class="lead">The one on the left.</p>
                     
-                </div><!-- /span3 -->
-                <div class="span5">
-
-
                     
-                    <p class="lead">Hi, I'm Kate Click! I lived in Argentina for a year and these are my notes from my time there. Many say exploration is part of our destiny, but it’s actually our duty to future generations and their quest to ensure survival.</p>
-                </div><!-- /span6 offset3 -->
+                </div><!-- /span12 -->
+            </div><!-- /row -->
+            <div class="row">
+                <div class="span8 offset2" style="margin-top: 40px;">
+                    
+                        <p>Want to see the world? You can do it in a few weeks or less. You can see all the highlights of any major city--Rome, Paris, Beijing, Santiago--in under 5 days with no need to spend any more time. </p>
+
+                       <p>But should you decide to be so 'wasteful' in your schedule and stay two weeks or longer, you'll start to notice something: with all the historical highlights and tourist traps out of your system, you are now a traveler. </p>
+
+                       <p>I crossed this threshold when I lived in Buenos Aires last year. After checking off all the guide book hit lists, I was free to experience the city and its people as they truly were. </p>
+
+                       <p>And so, this is my guide to anyone who's had their fill of flashy tango shows, and dares to stare into the Fernet-induced haze of the real BA. </p>
+                </div><!-- /span12 -->
+                
             </div><!-- /row -->
           </div><!-- /container -->
     </section>
