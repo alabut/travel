@@ -22,7 +22,7 @@
     <style type="text/css" media="screen">
 
 .inverse {
-    background: #415b76;
+    background: #004266;
     color: #fff;
 }
 
@@ -38,18 +38,20 @@
     background: url('images/buenos-aires-header.png') no-repeat 50% 50%;
     background-size: cover;
     height: 931px;
-    margin-top: -5px;
 }
 
 .banner h1,
 .banner h2,
 .banner h3 {
-    font-size: 12px;
-    text-indent: -10000px;
+    display: none;
 }
 
 section {
     padding: 20px 0;
+}
+
+.intro {
+    margin-top: -40px;
 }
 
 section p:last-child {
@@ -59,6 +61,15 @@ section p:last-child {
 p, li {
     font-size: 18px;
     line-height: 120%;
+}
+
+.avatar {
+    text-align: center;
+}
+
+.avatar img {
+    border: 3px solid #FFF;
+    border-radius: 3px;
 }
 
 @media (max-width: 767px) {
@@ -86,46 +97,66 @@ p, li {
           <h1>Buenos Aires</h1>
       </div><!-- /banner -->
       
-      <section>
+      <section class="inverse intro">
           <div class="container">
             <div class="row">
-                <div class="span6 offset3">
+                <div class="span3 offset2">
+                    <p class="avatar"><img src="https://si0.twimg.com/profile_images/3134548196/76a8dc0dfdad1e3b76273266edb0caed.jpeg" alt="Kate Click"></p>
                     
-                    <p class="lead">Hi, I'm Kate Click! I lived in Argentina for a year and these are my notes from my time there.</p>
+                </div><!-- /span3 -->
+                <div class="span5">
 
-                    <img src="images/exaple-image.jpg" alt="exaple-image" width="462" height="308" class="img-rounded">
+
                     
-
-                    <p>To go places and do things that have never been done before – that’s what living is all about.</p>
-
-                    <p>The dreams of yesterday are the hopes of today and the reality of tomorrow.</p>
-
-                    <p>Many say exploration is part of our destiny, but it’s actually our duty to future generations and their quest to ensure the survival of the human species.</p>
-
-                    <p>You know, being a test pilot isn't always the healthiest business in the world.</p>
+                    <p class="lead">Hi, I'm Kate Click! I lived in Argentina for a year and these are my notes from my time there. Many say exploration is part of our destiny, but it’s actually our duty to future generations and their quest to ensure survival.</p>
                 </div><!-- /span6 offset3 -->
             </div><!-- /row -->
           </div><!-- /container -->
     </section>
       
-      <section class="inverse">
+      <section>
           <div class="container">
+              <div class="row">
+                    <h2 class="span12">Neighborhoods</h2>
+              </div><!-- /row -->
             <div class="row">
-                <div class="span3">
-                    <img src="http://pesatalk.com/wp-content/uploads/2012/11/Buenos-Aires.jpg">
-                    <p class="img-comment"><strong>Name of the place -</strong> gravida at eget metus. Duis mollis, est non commodo.</p>
-                </div><!-- /span3 -->
-                <div class="span6">
-                    <h2>Neighborhoods</h2>
-                    <p><strong>Palermo:</strong> The biggest neighborhood in the city, Palermo is the home base for local yuppies and foreign expats. </p>
-                    <p><strong>Villa Crespo:</strong> Villa Crespo lies south of Cordoba opposite Palermo, and is its larger neighbor's more mellow counterpart. Locals head here for its outlet shops and quaint cafes without the touristy prices and noise of more mainstream areas. </p>
-                    <p><strong>Amalgro:</strong> </p>
-                </div><!-- /span6 -->
+                <div class="span12">
+                    <p><strong>Plaza Armenia</strong> is a particularly pleasant place to be on weekends, as it has all the charm of local drum teams and merchants without the noise of tourists and trinket peddlers. Grab a bottle of wine, lay in the grass, and watch the world go by. </p>
+                    <img src="https://www.evernote.com/shard/s47/share/6ee7-s47-c1590bf558db896f80789bf1293484b6-2/res/93cc3192-dcd0-40d3-93f7-39928bc4e1af/DSC_1839.JPG?resizeSmall&width=1096">
+                </div><!-- /span12 -->
+            </div>
+            <div class="row" style="margin-top: 40px;">
+                <div class="span4">
+                    <img src="http://perpetualroads.com/wp-content/uploads/2011/12/buenosaires-palermo-serranonight.jpg">
+                    <p class="img-comment"><strong>Palermo -</strong> The biggest neighborhood in the city, Palermo is the home base for local yuppies and foreign expats. Worth a visit for its solid shopping and restaurants, Palermo also has its share of tourist traps (cough…Plaza Serrano…cough). Stay on the edges of the neighborhood in areas like Palermo Soho, Palermo Hollywood, or Palermo Chico to get a more local sense of the place.</p>
+                </div><!-- /span4 -->
+                <div class="span4">
+                    <img src="http://8020.photos.everywheremag.com.s3-website-us-east-1.amazonaws.com/27250_4926_m.jpg">
+                    <p class="img-comment"><strong>Villa Crespo -</strong> lies south of Cordoba opposite Palermo, and is its larger neighbor's more mellow counterpart. Locals head here for its outlet shops and quaint cafes without the touristy prices and noise of more mainstream areas.</p>
+                </div><!-- /span4 -->
+                <div class="span4">
+                    <img src="http://cdn.gringoinbuenosaires.com/wp-content/uploads/2010/02/almagro.jpg">
+                    <p class="img-comment"><strong>Almagro -</strong> Amalgro is a true locals neighborhood and a fairly accurate representation of everyday life in middle class BA. It's also home to Bomba del Tiempo, an improv drum show that takes place every Monday night and draws hoards of travelers and young locals, alike.</p>
+                </div><!-- /span4 -->
             </div><!-- /row -->
+            <div class="row" style="margin-top: 40px;">
+                <div class="span12">
+                    <p><strong>Recoleta:</strong> Home to the famed cemetario of the same name (see below), Recoleta is home to monied (likely older) tourists, old-money aristocrats, and international embassies. See it for a glimpse at what BA was in its 'Paris of the South' golden years, but don't stay for the overhyped and overpriced shops. You'll get better bargains and a more authentic sense of the city elsewhere.</p>
+                    <img src="https://www.evernote.com/shard/s47/share/6ee7-s47-c1590bf558db896f80789bf1293484b6-2/res/528e2aab-dc3d-48a1-8f60-b74ded390201/DSC_1713_Snapseed.jpg?resizeSmall&width=1096">
+                </div><!-- /span12 -->
+            </div><!-- /row -->
+            
+            
+            
+            
+            
+            
+            
+            
           </div><!-- /container -->
      </section>
      
-     <section>
+     <section class="gray">
          <div class="container">
             <div class="row">
                 <div class="span6 offset3">
@@ -145,7 +176,7 @@ p, li {
          </div><!-- /container -->
      </section>
       
-      <section class="gray">
+      <section>
           <div class="container">
             <div class="row">
                 <div class="span6 offset3">
@@ -160,7 +191,7 @@ p, li {
           </div><!-- /container -->
      </section>
      
-     <section>
+     <section class="inverse">
          <div class="container">
             <div class="row">
                 <div class="span6 offset3">
@@ -179,7 +210,7 @@ p, li {
          </div><!-- /container -->
      </section>
       
-      <section class="inverse">
+      <section>
           <div class="container">
             <div class="row">
                 <div class="span6 offset3">
