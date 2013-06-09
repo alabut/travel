@@ -56,10 +56,6 @@ section {
     padding: 20px 0;
 }
 
-.intro .row {
-    margin-top: -100px;
-}
-
 section p:last-child {
     margin-bottom: 0;
 }
@@ -102,7 +98,7 @@ p, li {
     line-height: 145%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     
     section, .banner {
         margin-left: -20px;
@@ -113,6 +109,42 @@ p, li {
     
     .banner {
         height: 360px;
+    }
+    
+}
+
+/* fucked up hacks that are scheduled for removal */
+
+.intro .row {
+    margin-top: -100px;
+}
+
+@media (max-width: 768px) {
+        
+    .intro .row {
+        margin-top: 0;
+    }
+    
+}
+
+@media (max-width: 480px) {
+        
+    .intro .row:first-of-type {
+        margin-top: -50px;
+    }
+    
+    h2 {
+        font-size: 40px;
+    }
+
+    .span12 p {
+        font-size: 22px;
+        line-height: 130%;
+    }
+    
+    section p:last-child,
+    .img-comment {
+        margin-bottom: 40px;
     }
     
 }
