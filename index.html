@@ -27,6 +27,10 @@ body {
     font-weight: 300;
 }
 
+strong {
+  font-weight: 900;
+}
+
 .inverse {
     background: #004266;
     color: #fff;
@@ -53,7 +57,7 @@ body {
 }
 
 section {
-    padding: 20px 0;
+    padding: 55px 0 80px;
 }
 
 section p:last-child {
@@ -86,14 +90,15 @@ p, li {
     width: auto;
 }
 
-.span12 p {
+.span12 p,
+.intro p {
     line-height: 140%;
     margin-bottom: 20px;
 }
 
 .img-comment {
     font-family: 'Merriweather', serif;
-    font-size: 16px;
+    font-size: 15px;
     font-style: normal;
     line-height: 145%;
 }
@@ -116,7 +121,11 @@ p, li {
 /* fucked up hacks that are scheduled for removal */
 
 .intro .row {
-    margin-top: -100px;
+  margin-top: -100px;
+}
+
+section.intro p:last-child {
+  margin-bottom: 60px;
 }
 
 @media (max-width: 768px) {
@@ -163,9 +172,11 @@ p, li {
           <div class="container">
             <div class="row">
                 <div class="span12">
+                  <!--
                     <p class="lead">Hi, I'm Kate Click!</p>
                     <p class="avatar"><img src="https://si0.twimg.com/profile_images/3134548196/76a8dc0dfdad1e3b76273266edb0caed.jpeg" alt="Kate Click"></p>
                     <p class="lead">The one on the left.</p>
+                  -->
                     
                     
                 </div><!-- /span12 -->
@@ -199,8 +210,8 @@ p, li {
             </div>
             <div class="row" style="margin-top: 40px;">
                 <div class="span4">
-                    <img src="http://perpetualroads.com/wp-content/uploads/2011/12/buenosaires-palermo-serranonight.jpg">
-                    <p class="img-comment"><strong>Palermo -</strong> The biggest neighborhood in the city, Palermo is the home base for local yuppies and foreign expats. Worth a visit for its solid shopping and restaurants, Palermo also has its share of tourist traps (cough…Plaza Serrano…cough). Stay on the edges of the neighborhood in areas like Palermo Soho, Palermo Hollywood, or Palermo Chico to get a more local sense of the place.</p>
+                    <img src="http://media.tripsbytips.de/img/users/10014311/480x424/b0f3c2402af1010309557b2772f80b15.jpg">
+                    <p class="img-comment"><strong>Palermo -</strong> The biggest neighborhood in the city, Palermo is a home base to local yuppies and foreign expats. It's worth a visit for its solid shopping and restaurants. Stay on the edges of the neighborhood in areas like Palermo Soho, Palermo Hollywood, or Palermo Chico to get a more local sense of the place.</p>
                 </div><!-- /span4 -->
                 <div class="span4">
                     <img src="http://8020.photos.everywheremag.com.s3-website-us-east-1.amazonaws.com/27250_4926_m.jpg">
@@ -228,7 +239,7 @@ p, li {
           </div><!-- /container -->
      </section>
      
-     <section class="gray">
+     <section class="inverse">
          <div class="container">
              
              <div class="row">
