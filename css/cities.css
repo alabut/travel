@@ -1,0 +1,122 @@
+
+
+
+
+/********************************************
+  GLOBAL STYLES
+********************************************/
+
+html, body {
+  height: 100%;
+}
+
+
+
+
+/********************************************
+  NAVIGATION
+********************************************/
+
+.navbar-default {
+  background-color: rgba(0,0,0,0.5);
+  border-bottom-width: 0;
+  border-color: rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  padding-top: 11px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  color: rgba(255,255,255,0.7);
+}
+
+.navbar-default .navbar-nav>li>a,
+.dropdown-menu>li>a {
+  font-weight: 100;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+/* active state */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus,
+/* hover state */
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  background-color: rgba(255,255,255,0.1);
+  color: #fff;
+}
+
+
+
+
+/********************************************
+  HEADER/BANNER
+********************************************/
+
+.top-banner, .banner-color-fill {
+  background-repeat: no-repeat;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+.top-banner {
+  background-size: cover;
+}
+
+.banner-color-fill {
+/*  background-color: rgba(0,71,102,0.5);*/
+  
+  background: -moz-linear-gradient(top, rgba(0,71,102,0.5) 0%, rgba(0,71,102,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,71,102,0.5)), color-stop(100%,rgba(0,71,102,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0,71,102,0.5) 0%,rgba(0,71,102,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0,71,102,0.5) 0%,rgba(0,71,102,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0,71,102,0.5) 0%,rgba(0,71,102,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0,71,102,0.5) 0%,rgba(0,71,102,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80004766', endColorstr='#004766',GradientType=0 ); /* IE6-9 */
+  
+}
+
+.banner-title {
+  left: 50%;
+  padding: 0 20px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.banner-title img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+/********************************************
+  CONTENT & TYPOGRAPHY
+********************************************/
+
+section {
+  padding: 60px 0 70px;
+}
+
+.dark-background {
+  background: #004766;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 1.5em;
+    line-height: 160%;
+    margin-bottom: 20px;
+  }
+}
