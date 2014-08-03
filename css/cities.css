@@ -133,8 +133,58 @@ h2:first-child {
   margin-top: 20px;
 }
 
+.continent {
+  background-size: cover;
+}
+
 .continent h2 {
   text-align: center;
+}
+
+.continent h2 img {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.continent .city-thumbnail {
+  background-size: cover;
+  height: 200px;
+}
+
+.continent .austin {
+  background-image: url(http://upload.wikimedia.org/wikipedia/commons/c/cf/360_Barton_Springs_5July08_%289%29.JPG);
+}
+
+.continent .portland {
+  background-image: url(http://wikitravel.org/upload/shared//e/ea/Portland_Oregon.jpg);
+}
+
+.continent .sanfrancisco {
+  background-image: url(http://wikitravel.org/upload/en/2/23/Us-ca-sanfran-goldengate.jpg);
+}
+
+.continent .city-thumbnail h3 {
+  background-color: rgba(0,71,102,0.5);
+  color: #fff;
+  font-weight: 100;
+  letter-spacing: 5px;
+  padding: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.continent .city-thumbnail a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.continent .city-thumbnail a:hover {
+  text-decoration: none;
+}
+
+.continent .city-thumbnail a:hover h3 {
+  background-color: rgba(0,71,102,0.7);
 }
 
 p {
@@ -143,8 +193,10 @@ p {
 
 .footer {
   background: #ccc;
-  color: #444;
-  padding: 10px 0 0;
+  color: #777;
+  font-weight: 200;
+  letter-spacing: 2px;
+  padding: 10px 0;
   text-align: center;
 }
 
