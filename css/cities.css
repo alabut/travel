@@ -138,6 +138,11 @@ h2:first-child {
   margin-top: 20px;
 }
 
+.img-responsive {
+  max-width: none;
+  width: 100%;
+}
+
 .continent {
   background-size: cover;
 }
@@ -284,8 +289,8 @@ blockquote {
 }
 
 @media (min-width: 768px) {
-  p {
-    font-size: 26px;
+  p, section li {
+    font-size: 22px;
     line-height: 160%;
     margin-bottom: 20px;
   }
