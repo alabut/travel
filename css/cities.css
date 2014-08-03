@@ -152,6 +152,7 @@ h2:first-child {
 }
 
 .continent .city-thumbnail {
+  background-position: 50% 50%;
   background-size: cover;
   height: 200px;
 }
@@ -234,8 +235,6 @@ h2:first-child {
   background-image: url(../images/cities/zanzibar.jpg);
 }
 
-
-
 .continent .city-thumbnail h3 {
   background-color: rgba(0,71,102,0.5);
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 6px rgba(0, 0, 0, 0.1) inset;
@@ -263,6 +262,11 @@ h2:first-child {
 
 p {
   font-weight: 200;
+}
+
+blockquote {
+  font-family: Georgia;
+  font-style: italic;
 }
 
 .footer {
