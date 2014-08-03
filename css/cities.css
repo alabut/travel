@@ -138,7 +138,7 @@ h2:first-child {
   margin-top: 20px;
 }
 
-.img-responsive {
+.main-content .img-responsive {
   max-width: none;
   width: 100%;
 }
@@ -274,11 +274,19 @@ blockquote {
   font-style: italic;
 }
 
+input.btn-success {
+  background-color: transparent;
+  color: #449d44;
+  height: 40px;
+  margin-top: 10px;
+}
+
 .footer {
   background: #ccc;
   color: #777;
   font-weight: 200;
   letter-spacing: 2px;
+  margin: 0;
   padding: 10px 0;
   text-align: center;
 }
