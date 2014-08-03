@@ -155,6 +155,7 @@ h2:first-child {
   height: 200px;
 }
 
+/*north america*/
 .continent .austin {
   background-image: url(../images/cities/austin.jpg);
 }
@@ -166,6 +167,73 @@ h2:first-child {
 .continent .sanfrancisco {
   background-image: url(../images/cities/sanfrancisco.jpg);
 }
+
+/*south america*/
+.continent .buenosaires {
+  background-image: url(../images/cities/buenosaires.jpg);
+}
+
+.continent .rio {
+  background-image: url(../images/cities/rio.jpg);
+}
+
+.continent .santiago {
+  background-image: url(../images/cities/santiago.jpg);
+}
+
+/*europe*/
+.continent .barcelona {
+  background-image: url(../images/cities/barcelona.jpg);
+}
+
+.continent .paris {
+  background-image: url(../images/cities/paris.jpg);
+}
+
+.continent .amsterdam {
+  background-image: url(../images/cities/amsterdam.jpg);
+}
+
+/*pacific*/
+.continent .maui {
+  background-image: url(../images/cities/maui.jpg);
+}
+
+.continent .fiji {
+  background-image: url(../images/cities/fiji.jpg);
+}
+
+.continent .borabora {
+  background-image: url(../images/cities/borabora.jpg);
+}
+
+/*asia*/
+.continent .tokyo {
+  background-image: url(../images/cities/tokyo.jpg);
+}
+
+.continent .goa {
+  background-image: url(../images/cities/goa.jpg);
+}
+
+.continent .bali {
+  background-image: url(../images/cities/bali.jpg);
+}
+
+/*africa*/
+.continent .capetown {
+  background-image: url(../images/cities/capetown.jpg);
+}
+
+.continent .kilimanjaro {
+  background-image: url(../images/cities/kilimanjaro.jpg);
+}
+
+.continent .zanzibar {
+  background-image: url(../images/cities/zanzibar.jpg);
+}
+
+
 
 .continent .city-thumbnail h3 {
   background-color: rgba(0,71,102,0.5);
