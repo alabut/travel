@@ -59,6 +59,10 @@ html, body {
   margin-top: -52px;
 }
 
+.top-banner.home-page {
+  margin-top: 0;
+}
+
 .top-banner, .banner-color-fill {
   background-repeat: no-repeat;
   height: 100%;
@@ -152,15 +156,15 @@ h2:first-child {
 }
 
 .continent .austin {
-  background-image: url(http://upload.wikimedia.org/wikipedia/commons/c/cf/360_Barton_Springs_5July08_%289%29.JPG);
+  background-image: url(../images/cities/austin.jpg);
 }
 
 .continent .portland {
-  background-image: url(http://wikitravel.org/upload/shared//e/ea/Portland_Oregon.jpg);
+  background-image: url(../images/cities/portland.jpg);
 }
 
 .continent .sanfrancisco {
-  background-image: url(http://wikitravel.org/upload/en/2/23/Us-ca-sanfran-goldengate.jpg);
+  background-image: url(../images/cities/sanfrancisco.jpg);
 }
 
 .continent .city-thumbnail h3 {
