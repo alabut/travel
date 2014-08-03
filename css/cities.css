@@ -21,6 +21,7 @@ html, body {
   background-color: rgba(0,71,102,0.5);
   border-bottom-width: 0;
   border-color: rgba(255,255,255,0.2);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 6px rgba(0, 0, 0, 0.1) inset;
   margin-bottom: 0;
 }
 
@@ -237,6 +238,7 @@ h2:first-child {
 
 .continent .city-thumbnail h3 {
   background-color: rgba(0,71,102,0.5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 6px rgba(0, 0, 0, 0.1) inset;
   color: #fff;
   font-weight: 100;
   letter-spacing: 5px;
