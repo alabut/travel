@@ -265,6 +265,20 @@ h2:first-child {
   background-color: rgba(0,71,102,0.7);
 }
 
+.continent .city-thumbnail.comingsoon {
+  text-align: center;
+}
+
+.continent .city-thumbnail.comingsoon .comingsoon-tagline {
+  background: rgba(0,0,0,0.2);
+  border: 1px solid #fff;
+  display: inline-block;
+  font-weight: 100;
+  letter-spacing: 5px;
+  margin: 20px auto 0;
+  padding: 5px;
+}
+
 p {
   font-weight: 200;
 }
