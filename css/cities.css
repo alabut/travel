@@ -123,12 +123,22 @@ section {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 1.5em;
+  letter-spacing: 1px;
   margin-top: 50px;
+  text-transform: uppercase;
 }
 
 h2:first-child {
   margin-top: 20px;
+}
+
+.continent h2 {
+  text-align: center;
+}
+
+p {
+  font-weight: 200;
 }
 
 .footer {
@@ -145,7 +155,7 @@ h2:first-child {
 
 @media (min-width: 768px) {
   p {
-    font-size: 1.5em;
+    font-size: 26px;
     line-height: 160%;
     margin-bottom: 20px;
   }
